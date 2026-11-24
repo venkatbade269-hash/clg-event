@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIBRANCE 2026 | College Fest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">VIBRANCE</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#details">Details</a></li>
+      <li><a href="#performers">Performers</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#register">Register</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="home">
+    <h1>VIBRANCE 2026</h1>
+    <h2>The Ultimate College Cultural Fest</h2>
+    <p>Music • Dance • Art • Fun • Memories</p>
+    <p>📅 December 18, 2026 | 📍 College Campus</p>
+    <a href="#register" class="btn">Register Now</a>
+  </section>
+
+  <section id="details">
+    <h2 class="section-title">Event <span>Details</span></h2>
+    <div class="details">
+      <div class="detail-card"><h3>📅 Date</h3><p>December 18, 2026</p></div>
+      <div class="detail-card"><h3>⏰ Time</h3><p>9:00 AM – 8:00 PM</p></div>
+      <div class="detail-card"><h3>🎉 Events</h3><p>Dance, Singing, Fashion Show, Gaming &amp; More</p></div>
+      <div class="detail-card"><h3>🎟️ Entry</h3><p>Open to college students</p></div>
+    </div>
+  </section>
+
+  <section id="performers">
+    <h2 class="section-title">Featured <span>Performers</span></h2>
+    <div class="performers">
+      <div class="performer-card">
+        <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Live music performance">
+        <h3>DJ Night</h3><p>Dance to electrifying beats and music.</p>
+      </div>
+      <div class="performer-card">
+        <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Stage dance performance">
+        <h3>Dance Crew</h3><p>Experience incredible dance performances.</p>
+      </div>
+      <div class="performer-card">
+        <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Singer performing on stage">
+        <h3>Live Singing</h3><p>Enjoy music and live singing performances.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="schedule">
+    <h2 class="section-title">Event <span>Schedule</span></h2>
+    <div class="schedule">
+      <div class="schedule-item"><div class="time">9:00 AM</div><div><h3>Opening Ceremony</h3><p>Welcome address and inauguration.</p></div></div>
+      <div class="schedule-item"><div class="time">10:00 AM</div><div><h3>Dance Competition</h3><p>Solo and group dance performances.</p></div></div>
+      <div class="schedule-item"><div class="time">12:00 PM</div><div><h3>Singing Competition</h3><p>Showcase your vocal talent.</p></div></div>
+      <div class="schedule-item"><div class="time">2:00 PM</div><div><h3>Fashion Show</h3><p>Creativity, style and confidence.</p></div></div>
+      <div class="schedule-item"><div class="time">4:00 PM</div><div><h3>Fun Games</h3><p>Games, activities and entertainment.</p></div></div>
+      <div class="schedule-item"><div class="time">6:00 PM</div><div><h3>DJ Night</h3><p>Music, lights and celebration.</p></div></div>
+    </div>
+  </section>
+
+  <section id="venue">
+    <h2 class="section-title">Event <span>Venue</span></h2>
+    <div class="venue">
+      <h3>College Main Auditorium &amp; Grounds</h3>
+      <p>Join us at our college campus for a day filled with entertainment, creativity and unforgettable memories.</p>
+      <p>📍 College Campus, Andhra Pradesh, India</p>
+    </div>
+  </section>
+
+  <section id="register">
+    <h2 class="section-title">Register <span>Now</span></h2>
+    <div class="registration">
+      <form id="registrationForm">
+        <input type="text" id="name" placeholder="Enter your full name" required>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <input type="tel" id="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" maxlength="10" required>
+        <select id="event" required>
+          <option value="">Select your event</option>
+          <option>Dance</option><option>Singing</option><option>Fashion Show</option>
+          <option>Gaming</option><option>Photography</option><option>Other</option>
+        </select>
+        <button type="submit" class="btn">Submit Registration</button>
+        <p id="message"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer><p>© 2026 VIBRANCE College Fest | Made with ❤️ by Students</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
